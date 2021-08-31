@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RDITask</name>
+    </assembly>
+    <members>
+        <member name="M:RDITask.Controllers.CreditCardController.Index">
+            <summary>
+            Lists all credit cards
+            </summary>
+            <returns>Credit Cards</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CreditCardController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Show one credit card
+            </summary>
+            <returns>Credit Card</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CreditCardController.Create(RDITask.Models.CreditCardModel)">
+            <summary>
+            Create a credit card on database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+            <response code="406">Invalid data</response>
+        </member>
+        <member name="M:RDITask.Controllers.CreditCardController.Edit(RDITask.Models.CreditCardModel)">
+            <summary>
+            Update a credit card on database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+            <response code="406">Invalid data</response>
+        </member>
+        <member name="M:RDITask.Controllers.CreditCardController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete one credit card from database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CreditCardController.ValidateToken(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Delete one credit card from database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CustomerController.Index">
+            <summary>
+            Lists all customers
+            </summary>
+            <returns>Customers</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CustomerController.Details(System.Nullable{System.Int32})">
+            <summary>
+            Show one customer
+            </summary>
+            <returns>Customer</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+        <member name="M:RDITask.Controllers.CustomerController.Create(RDITask.Models.CustomerModel)">
+            <summary>
+            Create a customer on database
+            </summary>
+            <returns>Customer</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+            <response code="406">Invalid data</response>
+        </member>
+        <member name="M:RDITask.Controllers.CustomerController.Edit(RDITask.Models.CustomerModel)">
+            <summary>
+            Update a customer on database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+            <response code="406">Invalid data</response>
+        </member>
+        <member name="M:RDITask.Controllers.CustomerController.Delete(System.Nullable{System.Int32})">
+            <summary>
+            Delete one customer from database
+            </summary>
+            <returns>Nothing</returns>
+            <response code="200">Operation successful</response>
+            <response code="500">Operation failed</response>
+        </member>
+    </members>
+</doc>
