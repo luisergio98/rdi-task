@@ -101,9 +101,9 @@ namespace RDITask.Controllers
         }
 
         /// <summary>
-        /// Delete one credit card from database
+        /// Validate a token
         /// </summary>
-        /// <returns>Nothing</returns>
+        /// <returns>Boolean</returns>
         /// <response code="200">Operation successful</response>
         /// <response code="500">Operation failed</response>
         [HttpPost("validate")]
